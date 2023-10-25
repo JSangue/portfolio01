@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+}
+
+.cabecalho1{
+    position:fixed;
+    
+    border-bottom: 90px solid #ffffff00;
+    border-left: 1440px solid #1EE0EC;
+    
+}
+.cabecalho2{
+    position: fixed;
+    position: relative;
+    display: flex;
+    flex-direction: row;  
+}
+
+#logoportfolio{
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 70px;
+    height:104px;
+    width: 153px;
+}
+
+.menu{
+    position: fixed;
+    display: flex;
+    flex-direction: row; 
+    margin-top: 40px;
+    padding-left: 620px ;
+}
+
+#menus{
+    padding-left: 100px;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.menu a:hover{
+    text-decoration: underline;
+    color:#1EE0EC;
+    font-size: 16px;
+   }    
+
+ 
+.principal1 #fundo1{
+    position:absolute;
+ background-position: 100%;
+    width: 1440px;
+    height: 934px;
+    margin-top: 90px;
+    opacity: 5%;   
+    
+}    
+.principal{
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+   
+}
+
+.principal img{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin-left: 300px;
+}
+
+.textodoprincipal{
+    margin-top: 200px;
+    margin-left: 70px;  
+}
+
+.textodoprincipal h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.textodoprincipal h2{
+    font-size: 32px;
+}
+.textodoprincipal #troca{
+    display: flex;
+    flex-direction: row;
+}
+
+#troca h3{
+    font-size: 24px;
+}
+#trocanome h4{
+    font-size:24px;
+    padding-left:10px;
+    color: #1EE0EC;
+}
+
+.textodoprincipal button{
+    margin-top: 16px;
+    width: 120px;
+    height: 24px;
+    background: #1EE0EC;
+    color: white;
+    font-size: 14px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.textodoprincipal button:before{
+    margin-top: 16px;
+    width: 120px;
+    height: 24px;
+    background: #221EEC;
+    color: white;
+    font-size: 14px;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.sobre{
+    
+    width: 1440px;
+    height: 512px;
+    left: 0px;
+    top: 1024px;
+    background-color: #1EE0EC;
+}
+.sobre .titulosobre{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+}
+.sobre .titulosobre #titulo{
+    color: white;
+    font-size: 36px;
+}
+.sobre .titulosobre #subtitulo{
+    color:black;
+    font-size: 24px;
+}
+
+.sobre #assunto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sobre img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 160px;
+    margin-top: 75px;
+}
+
+.sobre #sobres{
+    display: flex;
+    flex-direction: column;
+    margin-left: 320px;
+    margin-top: 140px;
+}
+.sobre #sobres h3{
+    font-size: 24px;
+    color: black;
+}
+
+.sobre #sobres #troca{
+    display: flex;
+    flex-direction:row;
+}
+.sobre #sobres h6{
+    font-size: 24px;
+    color: black;
+}
+.sobre #sobres h4{
+    font-size: 24px;
+    color:white;
+}
+.sobre #sobres h5{
+    font-size: 16px;
+    color:black;
+}
+.sobre #sobres button{
+    margin-top: 16px;
+    width: 150px;
+    height: 24px;
+    background:#ffffffff;
+    color:black;
+    font-size: 14px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.servicos{
+    
+    width: 1440px;
+    height: 512px;
+    left: 0px;
+    top: 1536px;
+    background-color:white;
+}
+.servicos .tituloservico{
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+}
+.servicos .tituloservico #titulo{
+    margin-top: 30px;
+    color: black;
+    font-size: 36px;
+}
+.servicos .tituloservico #subtitulo{
+    color: #1EE0EC;
+    font-size: 24px;
+}
+
+.servicos #caixa1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left:15%;
+    background: #1EE0EC;
+    margin-top: 150px;
+    border: none;
+    padding-top: 10px;
+}
+.servicos #caixa2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left:65%;
+    background: #1EE0EC;
+    margin-top: 150px;
+    border: none;
+    padding-top: 10px;
+}
+.servicos img{
+    width: 75px;
+    height: px;
+}
+.servicos a{
+   padding-top: 10px;
+   color: black;
+}
+.servicos h3{
+    padding-top: 20px;
+    color:white;
+    font-size: 36px;
+ }
+ 
+.especialidade{
+    
+    width: 1440px;
+    height: 512px;
+    left: 0px;
+    top: 2048px;
+    background-color: #1EE0EC;
+}
+.especialidade .tituloespecialidade{
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+}
+.especialidade .tituloespecialidade #titulo{
+    margin-top: 30px;
+    color:white;
+    font-size: 36px;
+}
+.especialidade .tituloespecialidade #subtitulo{
+    color:black;
+    font-size: 24px;
+}
+
+.especialidade .texto3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sobre #sobres{
+    display: flex;
+    flex-direction: column;
+    margin-left: 320px;
+    margin-top: 140px;
+}
+.sobre #sobres h3{
+    font-size: 24px;
+    color: black;
+}
+
+.sobre #sobres #troca{
+    display: flex;
+    flex-direction:row;
+}
+.sobre #sobres h6{
+    font-size: 24px;
+    color: black;
+}
+.sobre #sobres h4{
+    font-size: 24px;
+    color:white;
+}
+.sobre #sobres h5{
+    font-size: 16px;
+    color:black;
+}
+.sobre #sobres button{
+    margin-top: 16px;
+    width: 150px;
+    height: 24px;
+    background:#ffffffff;
+    color:black;
+    font-size: 14px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.contacto .fundocontato{
+    margin-right: 0;
+    margin-top: 200px;
+    border-bottom: 200px solid #ffffff00;
+    border-left: 1440px solid #1EE0EC;
+}
+
+
+
+
+
+
+
+
+
